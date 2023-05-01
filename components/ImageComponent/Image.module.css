@@ -1,0 +1,24 @@
+.modal section {
+    background-color: #303134;
+    color: white;
+}
+
+.modal section>div>div>div>div>div>div {
+    background-color: #303134 !important;
+}
+
+.modal h2 {
+    width: 100%;
+}
+
+.modalImage {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.modalImage img {
+    width: 100% !important;
+    height: 50vw !important;
+    object-fit: cover !important;
+}

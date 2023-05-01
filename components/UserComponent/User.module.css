@@ -1,0 +1,68 @@
+.userAvatar {
+    /* border-radius: 32% 68% 57% 43% / 70% 70% 30% 30%; */
+    text-decoration: none;
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    width: 10rem;
+    min-width: 9.25rem;
+    height: auto;
+    /* animation: morph 8s ease-in-out infinite; */
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    /* transition: all 1s ease-in-out; */
+}
+
+.headerLinks {
+    gap: 5px;
+}
+
+.Links {
+    color: #bbb;
+    width: fit-content;
+}
+
+.Links :hover {
+    color: #ebeaea
+}
+
+.avatarPopover {
+    position: absolute;
+    top: 0;
+}
+
+.avatarTrophy {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background: #303134;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 25px;
+    border: 4px solid #202124;
+}
+
+.tabButton {
+    color: #bbb;
+    border: none;
+}
+
+.tabButton[data-active="true"] {
+    color: aliceblue;
+}
+
+/* @keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+} */

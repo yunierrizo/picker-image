@@ -1,0 +1,57 @@
+.toolBarSearch {
+    gap: 20px;
+    width: 50%;
+
+    justify-content: flex-end;
+}
+
+/* .toolBarSearch:focus {
+    width: 50%;
+    animation-duration: 3s;
+    animation-name: slideout;
+    justify-content: flex-end;
+} */
+
+.inputSearch {
+    width: 50%;
+    animation-duration: .5s;
+    animation-name: slidein;
+}
+
+.inputSearch:focus-within {
+    width: 100%;
+    animation-duration: .5s;
+    animation-name: slideout;
+}
+
+.inputSearch input {
+    background-color: #303134;
+    color: white;
+    border-color: #303134;
+    width: 100%;
+}
+
+.inputSearch input:focus {
+    border-color: #303134;
+    background-color: transparent;
+}
+
+@keyframes slidein {
+    from {
+        width: 100%
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes slideout {
+    from {
+        width: 50%
+    }
+
+    to {
+        width: 100%;
+    }
+}
